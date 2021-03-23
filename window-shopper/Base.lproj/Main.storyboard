@@ -26,15 +26,26 @@
                                     <constraint firstAttribute="width" constant="97" id="z57-lh-9qY"/>
                                 </constraints>
                             </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your hourly wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xfo-aB-mja" customClass="CurrencyTxtField" customModule="window_shopper" customModuleProvider="target">
+                                <rect key="frame" x="68" y="268" width="278" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="yjB-Bt-UCv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Qlh-bK-gzl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5nr-mH-IS8"/>
                             <constraint firstItem="St4-WL-P4k" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Jwz-Sb-s82"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xfo-aB-mja" secondAttribute="trailing" constant="68" id="Zya-qL-Knn"/>
+                            <constraint firstItem="Xfo-aB-mja" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="cL8-jV-KmR"/>
                             <constraint firstItem="St4-WL-P4k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eD7-Bb-G43"/>
                             <constraint firstItem="Qlh-bK-gzl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="77" id="hIe-RN-1j5"/>
                             <constraint firstItem="St4-WL-P4k" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="m89-DQ-ATH"/>
+                            <constraint firstItem="Xfo-aB-mja" firstAttribute="top" secondItem="Qlh-bK-gzl" secondAttribute="bottom" constant="50" id="xqq-FE-nh1"/>
                             <constraint firstAttribute="bottom" secondItem="St4-WL-P4k" secondAttribute="bottom" id="yOi-B9-WGS"/>
                         </constraints>
                     </view>

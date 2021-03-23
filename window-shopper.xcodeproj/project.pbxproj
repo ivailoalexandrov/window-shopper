@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8881CC84260A487D00FA8115 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881CC83260A487D00FA8115 /* CurrencyTxtField.swift */; };
 		88D70E91260A44BD00BA03F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D70E90260A44BD00BA03F9 /* AppDelegate.swift */; };
 		88D70E93260A44BD00BA03F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D70E92260A44BD00BA03F9 /* SceneDelegate.swift */; };
 		88D70E95260A44BD00BA03F9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D70E94260A44BD00BA03F9 /* MainVC.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8881CC83260A487D00FA8115 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 		88D70E8D260A44BD00BA03F9 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88D70E90260A44BD00BA03F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88D70E92260A44BD00BA03F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8881CC82260A481900FA8115 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8881CC83260A487D00FA8115 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		88D70E84260A44BD00BA03F9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		88D70E8F260A44BD00BA03F9 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				8881CC82260A481900FA8115 /* Views */,
 				88D70EA5260A45BA00BA03F9 /* Controller */,
 				88D70E90260A44BD00BA03F9 /* AppDelegate.swift */,
 				88D70E92260A44BD00BA03F9 /* SceneDelegate.swift */,
@@ -145,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8881CC84260A487D00FA8115 /* CurrencyTxtField.swift in Sources */,
 				88D70E95260A44BD00BA03F9 /* MainVC.swift in Sources */,
 				88D70E91260A44BD00BA03F9 /* AppDelegate.swift in Sources */,
 				88D70E93260A44BD00BA03F9 /* SceneDelegate.swift in Sources */,
