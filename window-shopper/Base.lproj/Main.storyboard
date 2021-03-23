@@ -27,9 +27,17 @@
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your hourly wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xfo-aB-mja" customClass="CurrencyTxtField" customModule="window_shopper" customModuleProvider="target">
-                                <rect key="frame" x="68" y="268" width="278" height="75"/>
+                                <rect key="frame" x="40" y="258" width="334" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="yjB-Bt-UCv"/>
+                                    <constraint firstAttribute="height" constant="50" id="yjB-Bt-UCv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Item price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BHI-LS-SDr" customClass="CurrencyTxtField" customModule="window_shopper" customModuleProvider="target">
+                                <rect key="frame" x="40" y="333" width="334" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="s6E-qD-hOP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -40,12 +48,16 @@
                         <constraints>
                             <constraint firstItem="Qlh-bK-gzl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5nr-mH-IS8"/>
                             <constraint firstItem="St4-WL-P4k" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Jwz-Sb-s82"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xfo-aB-mja" secondAttribute="trailing" constant="68" id="Zya-qL-Knn"/>
-                            <constraint firstItem="Xfo-aB-mja" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="cL8-jV-KmR"/>
+                            <constraint firstItem="BHI-LS-SDr" firstAttribute="leading" secondItem="Xfo-aB-mja" secondAttribute="leading" id="TVK-3B-UeI"/>
+                            <constraint firstItem="BHI-LS-SDr" firstAttribute="height" secondItem="Xfo-aB-mja" secondAttribute="height" id="W0u-5R-DpR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xfo-aB-mja" secondAttribute="trailing" constant="40" id="Zya-qL-Knn"/>
+                            <constraint firstItem="Xfo-aB-mja" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="cL8-jV-KmR"/>
                             <constraint firstItem="St4-WL-P4k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eD7-Bb-G43"/>
+                            <constraint firstItem="BHI-LS-SDr" firstAttribute="trailing" secondItem="Xfo-aB-mja" secondAttribute="trailing" id="fBD-Ny-8O2"/>
                             <constraint firstItem="Qlh-bK-gzl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="77" id="hIe-RN-1j5"/>
+                            <constraint firstItem="BHI-LS-SDr" firstAttribute="top" secondItem="Xfo-aB-mja" secondAttribute="bottom" constant="25" id="m5u-PE-vb9"/>
                             <constraint firstItem="St4-WL-P4k" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="m89-DQ-ATH"/>
-                            <constraint firstItem="Xfo-aB-mja" firstAttribute="top" secondItem="Qlh-bK-gzl" secondAttribute="bottom" constant="50" id="xqq-FE-nh1"/>
+                            <constraint firstItem="Xfo-aB-mja" firstAttribute="top" secondItem="Qlh-bK-gzl" secondAttribute="bottom" constant="40" id="xqq-FE-nh1"/>
                             <constraint firstAttribute="bottom" secondItem="St4-WL-P4k" secondAttribute="bottom" id="yOi-B9-WGS"/>
                         </constraints>
                     </view>
@@ -55,6 +67,14 @@
             <point key="canvasLocation" x="18.840579710144929" y="75.669642857142847"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="BHI-LS-SDr">
+            <size key="intrinsicContentSize" width="65" height="18.5"/>
+        </designable>
+        <designable name="Xfo-aB-mja">
+            <size key="intrinsicContentSize" width="111.5" height="18.5"/>
+        </designable>
+    </designables>
     <resources>
         <image name="windowShopperBG" width="414" height="736"/>
         <image name="windowShopperIcon" width="115" height="115"/>
