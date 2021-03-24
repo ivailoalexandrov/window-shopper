@@ -20,14 +20,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="windowShopperIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Qlh-bK-gzl">
-                                <rect key="frame" x="158.5" y="74" width="97" height="97"/>
+                                <rect key="frame" x="158.5" y="104" width="97" height="97"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="97" id="goK-Z8-VIF"/>
                                     <constraint firstAttribute="width" constant="97" id="z57-lh-9qY"/>
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Your hourly wage" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xfo-aB-mja" customClass="CurrencyTxtField" customModule="window_shopper" customModuleProvider="target">
-                                <rect key="frame" x="40" y="211" width="334" height="50"/>
+                                <rect key="frame" x="40" y="241" width="334" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="yjB-Bt-UCv"/>
                                 </constraints>
@@ -35,7 +35,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Item price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BHI-LS-SDr" customClass="CurrencyTxtField" customModule="window_shopper" customModuleProvider="target">
-                                <rect key="frame" x="40" y="286" width="334" height="50"/>
+                                <rect key="frame" x="40" y="316" width="334" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="s6E-qD-hOP"/>
                                 </constraints>
@@ -43,13 +43,13 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kTZ-gP-lNc">
-                                <rect key="frame" x="40" y="381" width="334" height="62.5"/>
+                                <rect key="frame" x="40" y="411" width="334" height="62.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="52"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIR-1I-m9w">
-                                <rect key="frame" x="157" y="448.5" width="100" height="50"/>
+                                <rect key="frame" x="157" y="478.5" width="100" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="372-gB-jkp"/>
                                     <constraint firstAttribute="width" constant="100" id="HJ8-Af-OIM"/>
@@ -88,7 +88,7 @@
                             <constraint firstItem="sG1-Iz-CIO" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ceq-G8-B5o"/>
                             <constraint firstItem="St4-WL-P4k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eD7-Bb-G43"/>
                             <constraint firstItem="BHI-LS-SDr" firstAttribute="trailing" secondItem="Xfo-aB-mja" secondAttribute="trailing" id="fBD-Ny-8O2"/>
-                            <constraint firstItem="Qlh-bK-gzl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="hIe-RN-1j5"/>
+                            <constraint firstItem="Qlh-bK-gzl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="hIe-RN-1j5"/>
                             <constraint firstItem="BHI-LS-SDr" firstAttribute="top" secondItem="Xfo-aB-mja" secondAttribute="bottom" constant="25" id="m5u-PE-vb9"/>
                             <constraint firstItem="St4-WL-P4k" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="m89-DQ-ATH"/>
                             <constraint firstItem="qIR-1I-m9w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="psO-cL-KHR"/>
