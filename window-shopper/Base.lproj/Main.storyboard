@@ -42,17 +42,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="32" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kTZ-gP-lNc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kTZ-gP-lNc">
                                 <rect key="frame" x="40" y="401" width="334" height="62.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="52"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIR-1I-m9w">
-                                <rect key="frame" x="157" y="468.5" width="100" height="50"/>
+                                <rect key="frame" x="185.5" y="468.5" width="43.5" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="372-gB-jkp"/>
-                                    <constraint firstAttribute="width" constant="100" id="HJ8-Af-OIM"/>
+                                    <constraint firstAttribute="height" constant="50" id="w1N-Ku-gL1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -91,9 +90,9 @@
                             <constraint firstItem="Qlh-bK-gzl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="hIe-RN-1j5"/>
                             <constraint firstItem="BHI-LS-SDr" firstAttribute="top" secondItem="Xfo-aB-mja" secondAttribute="bottom" constant="25" id="m5u-PE-vb9"/>
                             <constraint firstItem="St4-WL-P4k" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="m89-DQ-ATH"/>
-                            <constraint firstItem="qIR-1I-m9w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="psO-cL-KHR"/>
+                            <constraint firstItem="qIR-1I-m9w" firstAttribute="top" secondItem="kTZ-gP-lNc" secondAttribute="bottom" constant="5" id="og1-G8-iiZ"/>
                             <constraint firstItem="kTZ-gP-lNc" firstAttribute="width" secondItem="BHI-LS-SDr" secondAttribute="width" id="vaY-h5-1kJ"/>
-                            <constraint firstItem="qIR-1I-m9w" firstAttribute="top" secondItem="kTZ-gP-lNc" secondAttribute="bottom" constant="5" id="wLL-j9-g3g"/>
+                            <constraint firstItem="qIR-1I-m9w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xbC-yr-xqn"/>
                             <constraint firstItem="Xfo-aB-mja" firstAttribute="top" secondItem="Qlh-bK-gzl" secondAttribute="bottom" constant="40" id="xqq-FE-nh1"/>
                             <constraint firstAttribute="bottom" secondItem="St4-WL-P4k" secondAttribute="bottom" id="yOi-B9-WGS"/>
                         </constraints>
